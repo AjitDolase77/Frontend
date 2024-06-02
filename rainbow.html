@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rainbow text</title>
+    <style>
+        .text{
+            background: linear-gradient(to left, violet,indigo,blue, green, yellow,orange, red);
+            background-clip: text;
+            display: inline;
+            color: transparent;
+            animation: animate 3.5s linear infinite;
+            
+        }
+        @keyframes animate{
+            to{background-position-x: 161px;}
+        }
+        p{
+            font-size: 50px;
+            font-weight: 700;
+        }
+        h1{
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p class="text" >AJIT</p>
+    <h1 class="text">Dolase</h1>
+</body>
+</html>

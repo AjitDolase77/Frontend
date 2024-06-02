@@ -1,0 +1,77 @@
+1. HTML: Hyper text markup language.
+
+2.Tim Berner Lee was develop HTML.
+
+3.idea come by newspaper.
+
+4.Driven WWW(world wide web)(w3c)
+
+5.Latest version of HTML5.
+
+6.Language write in <> ths brackets is called markup language.
+
+7. <html>:- open tag
+   </html>:- close tag
+
+8.If once you open a tag, then you need to close this tag.
+
+9.it has 6 types of header tag{<h1>,<h2>,<h3>,<h4>,<h5>,<h6>}
+    this tags can use for change size of header and title.
+
+10. <b> & <i> & <u> is used for bold and italic and underline for text.
+
+11. <p> is used for work on paragraph, when <p align="left">then text will be in right side,
+	when<p aling="right"> all text will be in left side and when <p align ="justify"> is used then text in middle.
+
+12. <ul> is used for unordered list, <li> means it is useful for create bullet points.
+
+13. <ol> is used for order list means list an order of 1,2,3,4...  .
+
+14. <table> is used to show the table. 
+	<tr> is used for create new row in table.
+	<td> is used for create new column in table.
+
+	ex,  1st row: <table> 
+		<tr>
+		<td>Name</td>
+		</tr>
+		</table>
+
+		2nd row: <table> 
+		<tr>
+		<td>mobile</td>
+		</tr>
+		</table>
+
+		 3rd row:<table> 
+		<tr>
+		<td>Email</td>
+		</tr>
+		</table>
+15.  <table border="2px"> is used for margin in table.
+
+16.for new page in previous window use:  <a href="page2.html">Home</a>
+
+17. Forms:  i].For Textbox:  <input type="text">
+		ii].For Checkbox: <input type="checkbox">
+		iii].For single select option use radio button
+				<input type="radio"name="rl">male
+				<input type="radio"name="rl">female
+		iv].For Button:   <input type="submit">
+		v]. for hiding password<input type="password">
+		vi]. input birthdate <input type="date">
+		vii].for getting time detail<input typa="time">
+		viii]. <input type="range"> is used for getting sound bar like.
+		ix].for colour <input type="colour">
+
+18. placeholder is used to inform the user from the input.
+    ex,   <input type="text" placeholder="Enter your name">
+
+19]. Validation: 1) client side validation
+		     2) server side validation
+			ex.., 1] Enter your name:<input type="text"required>
+			it is apply for all input types.
+			2] for email validation use <input type="Email">
+			3] for only number as a input <input type="number">
+			4] contact no. box with limit: <input type="text" pattern="[0-9]{10}"> 
+20]. Javascript is used to how the webpage behave 

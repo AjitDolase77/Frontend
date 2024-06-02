@@ -1,0 +1,67 @@
+1]. CSS :- cascaded style sheet.  (decorate the HTML pages)
+	i. Internal css
+	ii. External css
+	iii. Inline css
+2]. Internal css:
+
+		i. write {<style>  </style>} in html in <head> </head>
+		ii. To customize heading tag in h1{background-colour:#green}
+		iii. to custimize text color h1{color:#136548}
+		iv. text-align:center;
+		v. to add background image : background-image:url('folder name/image name.jpg');
+		vi. background-repeat:('no repeat');
+		    background-size:cover;
+		vii. for text  decoration:
+					text-color:600215;
+					text-decoration:overline,through,underline;
+					style of line was change using: dotted, wave,etc,
+					color was change using color name
+					ex: text-decoration:underline dotted yellow;
+					* for text in capital form: text-transform:uppercase, lowercase, capitalize;
+		viii. for paragraph editing: 
+							p{
+							text-indent: 80px;
+							letter-spacing:5px;
+							line-height:2.4;
+							}
+		ix. for getting shadow in text: text-shadow:20px 20px #896523;
+                also for border to the text: border-style::solid;
+		x. margin is used to get space outside of box and padding is used to space inside the box.
+3]. for edit button :
+h1{
+background:5px solid #565656;
+border-radius:5px;
+padding-top:5px;
+padding-left:5px;
+padding-right:5px;
+padding-bottom:5px;
+background-color:#565656;
+}
+a:link{
+color:red;
+border-radius:5px;
+padding-top:5px;
+padding-left:5px;
+padding-right:5px;
+padding-bottom:5px;
+background-color:#129876;
+text-decoration:none;
+}
+a:hover{
+background-color:989856;
+border:5px solid #989856;
+font-size=50px;
+}
+
+
+for getting seprate background colour  
+li.a{    }
+li.b{    }
+
+
+Working on individual tag use this:
+create new class in <style> give clasa name like:
+h1.ajit{  }  and in h1 tag write
+
+<h1 class="ajit"> it is used for edit seprate tag
+
